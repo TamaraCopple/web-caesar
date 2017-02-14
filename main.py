@@ -22,7 +22,7 @@ def build_page(textarea_content):
     rot_label = "<label>Rotate By </label>"
     rotation_input = "<input type='number' name='rotation'/>"
     messsage_label = "<label>Text to Encrypt </label>"
-    textarea = "<textarea name='message'></textarea>"
+    textarea = "<textarea name='message'>" + textarea_content + "</textarea>"
     submit = "<input type='submit'/>"
     header = "<h2>Web Caesar</h2>"
 
